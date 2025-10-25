@@ -1,0 +1,63 @@
+.env
+.env.local
+.env.*.local
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Screenshots (may contain personal information)
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Documents (personal resume and files)
+documents/
+resume.pdf
+*.pdf
+*.docx
+
+# Logs
+*.log
+automation.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ChromeDriver
+chromedriver
+chromedriver.exe
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Database
+*.db
+*.sqlite3
+
+# Backup files
+*.bak
+*.tmp
+*.temp
