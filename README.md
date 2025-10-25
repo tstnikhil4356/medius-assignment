@@ -44,7 +44,7 @@ This project demonstrates advanced web automation and backend integration:
 
 ## Flowchart Of Automation Process
 
-![Flowchart of Automation Process](flowchart.png)
+![Flowchart of Automation Process](FlowChart.png)
 
 ## Technical Stack
 
