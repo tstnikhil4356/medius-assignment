@@ -23,7 +23,7 @@ def send_assignment_email():
 I am submitting my assignment for the Python (Selenium) position. Please find the attached materials:
 
 1. Screenshot of the form filled via automated code (form_confirmation.png)
-2. Source code repository: [Your GitHub Repository Link]
+2. Source code repository: https://github.com/tstnikhil4356/medius-assignment/
 3. Documentation of approach (README.md in repository)
 4. Resume (attached)
 5. Past projects and work samples:
@@ -54,7 +54,7 @@ Best regards,
 
     msg.attach(MIMEText(body, 'plain'))
 
-    attachments = ['form_confirmation.png', 'resume.pdf']
+    attachments = ['form_confirmation.png', 'resume.pdf', 'Technical Documentation.docx']
 
     for file_path in attachments:
         if os.path.exists(file_path):
